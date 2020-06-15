@@ -14,8 +14,8 @@ end
 #current_player
 def current_player(array)
   if turn_count(array) % 2 == 0
-    X
-  elsif turn_count(array) % 2 != 0
     O
+  elsif turn_count(array) % 2 != 0
+    X
   end
 end
