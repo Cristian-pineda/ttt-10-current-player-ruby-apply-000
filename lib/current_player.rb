@@ -11,7 +11,6 @@ def turn_count(array)
 end
 
 #current_player
-
 def current_player(array)
   if turn_count(array) % 2 == 0
     "X"
@@ -19,3 +18,8 @@ def current_player(array)
     "O"
   end
 end
+
+#current player more concise code
+#def current_player(array)
+#    turn_count(array) % 2 == 0? "X" : "O"
+#  end
