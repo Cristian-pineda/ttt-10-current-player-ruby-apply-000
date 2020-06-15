@@ -23,4 +23,3 @@ def current_player(array)
     "O"
   end
 end
-  
